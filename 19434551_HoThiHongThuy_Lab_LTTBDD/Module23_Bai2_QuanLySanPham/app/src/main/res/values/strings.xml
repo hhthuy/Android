@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Module23_Bai2_QuanLySanPham</string>
+    <string-array name="hangSP_list">
+        <item>1- SamSung</item>
+        <item>2- Iphone</item>
+        <item>3- Ipad</item>
+    </string-array>
+</resources>

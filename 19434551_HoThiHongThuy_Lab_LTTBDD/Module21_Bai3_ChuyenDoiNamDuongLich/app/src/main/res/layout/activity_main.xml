@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chuyển đổi năm dương lịch"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:background="#277E17"
+        android:textColor="@color/white"
+        />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textview_namduong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Năm dương lich: "
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edittext_namduonglich"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp" />
+
+        </TableRow>
+        <Button
+            android:id="@+id/button_ChuyenDoi"
+            android:layout_width="401dp"
+            android:layout_height="74dp"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="#B8B4B4"
+            android:insetLeft="150dp"
+            android:padding="5dp"
+            android:text="Chuyển đổi"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:id="@+id/textview_namam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Năm âm lich: "
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edittext_namamlich"
+                android:layout_width="256dp"
+                android:layout_height="45dp"
+                android:background="#FFEB3B"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="#277E17"
+            />
+    </TableLayout>
+
+
+
+</LinearLayout>
+
