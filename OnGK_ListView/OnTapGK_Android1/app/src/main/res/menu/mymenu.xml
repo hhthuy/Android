@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Xem danh sách">
+        <menu>
+            <item
+                android:id="@+id/mnDSNV"
+                android:title="Nhân viên"/>
+            <item
+                android:id="@+id/mnDSPhongBan"
+                android:title="Phòng Ban"/>
+        </menu>
+    </item>
+    <item
+        android:title="In danh sách">
+        <menu>
+            <item
+                android:id="@+id/mnInDS"
+                android:title="Danh sách NV"/>
+        </menu>
+    </item>
+
+</menu>

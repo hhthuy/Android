@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:id="@+id/image"
+        android:src="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/txtMaso"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/image"
+        android:text="Ma so: " />
+
+    <TextView
+        android:id="@+id/txtHoTen"
+        android:layout_toRightOf="@id/image"
+        android:layout_below="@id/txtMaso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Ho Ten: "
+        style="@style/TextAppearance.AppCompat.Body1"
+        />
+
+    <TextView
+        android:id="@+id/txtGioiTinh"
+        android:layout_toRightOf="@id/image"
+        android:layout_below="@id/txtHoTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Gioi Tinh: "
+        style="@style/TextAppearance.AppCompat.Body1"
+        />
+
+    <TextView
+        android:id="@+id/txtDonVi"
+        android:layout_toRightOf="@id/image"
+        android:layout_below="@id/txtGioiTinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Don Vi: "
+        style="@style/TextAppearance.AppCompat.Body1"
+        />
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/check_Xoa"-->
+<!--        style="@style/TextAppearance.AppCompat.Body1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/txtGioiTinh"-->
+<!--        android:layout_marginLeft="289dp"-->
+<!--        android:layout_marginTop="-52dp"-->
+<!--        android:layout_toRightOf="@id/image" />-->
+
+
+</RelativeLayout>

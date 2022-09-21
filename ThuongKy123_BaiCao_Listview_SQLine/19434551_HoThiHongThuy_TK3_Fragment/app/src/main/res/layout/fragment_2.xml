@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment2">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewCakeMain2"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="60dp"
+                    android:src="@drawable/laptophp" />
+
+                <TextView
+                    android:id="@+id/tvNameSPMain2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LapTop HP"
+                    android:layout_gravity="center"
+                    android:textColor="#045C80"
+                    android:textFontWeight="700"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/tvPriceMain2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="12999000"
+                    android:textColor="#E10A0A"
+                    android:textFontWeight="700"
+                    android:textSize="20dp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Thông tin laptop"
+                    android:textColor="#000000"
+                    android:textFontWeight="700"
+                    android:textSize="20dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="LAPTOP CHÍNH HÃNG 100% các thương hiệu điện tử hàng đầu thế giới: ASUS, ACER, DELL, HP, MSI, GIGABYTE, LG..."
+                    android:textColor="#54000000"
+                    android:textFontWeight="400"
+                    android:textSize="15dp"
+                    android:textStyle="normal" />
+
+
+
+                <TextView
+                    android:id="@+id/tvMoTa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:inputType="textMultiLine"
+                    android:text="Xuất xứ: Trung Quốc.
+                                                                      Màu sắc: Xam\n
+14.0 inch, SVA, 60 Hz, 250 nits, Anti-glare
+                      Intel, Core i3, 1005"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <Button
+
+                        android:layout_width="144dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:backgroundTint="#009688"
+                        android:text="Chat ngay" />
+
+                    <Button
+                        android:id="@+id/buttonAddtoCart"
+                        android:layout_width="197dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#F44336"
+                        android:text="Mua ngay" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="7dp"
+                        app:srcCompat="@drawable/giohang" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

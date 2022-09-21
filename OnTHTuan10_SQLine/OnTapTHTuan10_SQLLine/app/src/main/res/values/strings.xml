@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OnTapTHTuan10_TacGia</string>
+    <string-array name="listArray_authors">
+        <item>Nguyễn Du</item>
+        <item>Xuân Quỳnh</item>
+        <item>Hồ Chí Minh</item>
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mni_book"
+        android:title="Book">
+    </item>
+    <item
+        android:id="@+id/mni_author"
+        android:title="Author">
+    </item>
+    <item
+        android:id="@+id/mni_thoat"
+        android:title="Thoat">
+    </item>
+</menu>

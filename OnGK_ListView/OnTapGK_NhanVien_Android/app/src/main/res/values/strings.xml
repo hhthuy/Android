@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OnTapGK_NhanVien_Android</string>
+    <string-array name="list_items">
+        <item>Phòng kế toán</item>
+        <item>Phòng nhân sự</item>
+        <item>Phòng tài chính</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BÀI CÀO"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FFEB3B"
+        android:background="#F44336"
+        android:textSize="50dp"/>
+    <Button
+        android:id="@+id/btn_ng_vs_may"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="#8F0E0E"
+        android:textStyle="italic"
+        android:backgroundTint="#0E0F10"
+        android:text="Người với máy"/>
+    <Button
+        android:id="@+id/btn_may_vs_may"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="#8F0E0E"
+        android:textStyle="italic"
+        android:backgroundTint="#0E0F10"
+        android:text="Máy với máy"/>
+</LinearLayout>

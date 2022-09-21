@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <ImageView
+        android:id="@+id/imageview_anhsanpham"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:layout_height="280dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_guiTen"
+            android:layout_width="217dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:hint="ten san pham"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_guiGia"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:layout_height="62dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#009688"
+            android:text="Chat ngay" />
+        <Button
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF5722"
+            android:text="Mua ngay" />
+        <ImageView
+            android:id="@+id/imageview_giohang"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_gravity="right|center"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/shopping_cart" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="THÔNG TIN SẢN PHẨM"
+        android:textColor="#FF5722"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textview_thongtinchitiet"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </ScrollView>
+
+</LinearLayout>

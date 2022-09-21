@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BEFF5722"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sản phẩm | Mới nhất | Bán chạy | Giá "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <GridView
+        android:id="@+id/gridview_traicay"
+        android:numColumns="3"
+        android:columnWidth="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--    <Spinner-->
+    <!--        android:id="@+id/spinner_traicay"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"/>-->
+    <!--    <ListView-->
+    <!--        android:id="@+id/listview_traicay"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="match_parent"/>-->
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //set màu vàng ngôi sao
+    <style name="Ratingbar" parent="Theme.AppCompat">
+        <item name="colorControlActivated">@color/duskYellow</item>
+    </style>
+
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý nhân viên"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="#6C29E6"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_docDL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
+            android:text="Đọc dữ liệu" />
+
+        <Button
+            android:id="@+id/btn_ghiDL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
+            android:text="Ghi dữ liệu" />
+        <Button
+            android:id="@+id/btn_Thoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F44336"
+            android:text="Thoát" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_AnhPreview"
+        android:layout_width="120dp"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/btn_ChonAnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Chọn ảnh" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_MaSo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Nhập mã"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_HoTen"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Nhập họ tên" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_GioiTinh"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Giới tính:" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton_Nam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nam" />
+
+            <RadioButton
+                android:id="@+id/radioButton_Nu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nữ" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_DonVi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Đơn vị" />
+
+        <Spinner
+            android:id="@+id/spinner_DonVi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_Them"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm" />
+
+        <Button
+            android:id="@+id/btn_Sua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa" />
+
+        <Button
+            android:id="@+id/btn_TruyVan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Truy vấn" />
+
+        <ImageButton
+            android:id="@+id/imgbutton_Xoa"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/xoa_icon" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView_NhanVien"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

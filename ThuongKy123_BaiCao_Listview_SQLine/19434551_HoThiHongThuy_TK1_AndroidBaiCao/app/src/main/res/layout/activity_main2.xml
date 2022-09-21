@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFEB3B"
+        android:text="Bắt đầu chơi"
+        android:background="#F44336"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="Người"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/La_1"
+            android:layout_width="101dp"
+            android:layout_height="150dp"
+            android:src="@drawable/b1fv"/>
+        <ImageView
+            android:id="@+id/La_2"
+            android:layout_width="101dp"
+            android:layout_height="150dp"
+            android:src="@drawable/b1fv"/>
+        <ImageView
+            android:id="@+id/La_3"
+            android:layout_width="101dp"
+            android:layout_height="150dp"
+            android:src="@drawable/b1fv"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/ketQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#E33A3A"
+        android:textStyle="italic"
+        android:background="#252525"
+        android:text="Kết quả:"/>
+
+    <Button
+        android:id="@+id/rutBai"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="Chia bài"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:textColor="#8F0E0E"
+        android:textStyle="bold"
+        android:backgroundTint="#0E0F10"/>
+    <TextView
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:text="Máy"
+        android:background="#F44336"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/La_4"
+            android:layout_width="101dp"
+            android:layout_height="150dp"
+            android:src="@drawable/b1fv"/>
+        <ImageView
+            android:id="@+id/La_5"
+            android:layout_width="101dp"
+            android:layout_height="150dp"
+            android:src="@drawable/b1fv"/>
+        <ImageView
+            android:id="@+id/La_6"
+            android:layout_width="101dp"
+            android:layout_height="150dp"
+            android:src="@drawable/b1fv"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ketQua2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#E33A3A"
+        android:textStyle="italic"
+        android:background="#252525"
+        android:text="Kết quả: "/>
+    <TextView
+        android:id="@+id/Dem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:textColor="#FFEB3B"
+        android:text="Kết quả???"/>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android_Figma_ChonMauDienThoai</string>
+
+    //dấu gạch ngang ở chữ
+    <string name="strike">
+        <strike>1.790.000 đ</strike>
+    </string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">19434551_HoThiHongThuy_TK2_NhanVienUI</string>
+    <string-array name="donvi_list">
+        <item>Phòng kế toán</item>
+        <item>Phòng tiếp thị</item>
+        <item>Phòng quan hệ doanh nghiệp</item>
+        <item>Phòng kỹ thuật</item>
+        <item>Phòng bộ phận quản trị</item>
+        <item>Phòng trung tâm phần mềm</item>
+    </string-array>
+</resources>
